@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+<div id="top">
+    <h1>tic-tac-toe</h1>
+    <h3>Rules:</h3>
+<p>The object of Tic Tac Toe is to get three in a row. You play on a three by three game board. The first player is known as X and the second is O. Players alternate placing Xs and Os on the game board until either oppent has three in a row or all nine squares are filled.</p>
+<div id="msg">Move</div>
+</div>
+
+<div id="middle">
+<div id="col1">
+  <article id="player1" class="hidden">Player X</article>
+
+<!-- <button id="compPlay">Computer Mode</button> -->
+</div>
+<div id="col2">
+  <div id="row1">
+<div id="0" class="gridCell"></div>
+<div id="1" class="gridCell"></div>
+<div id="2" class="gridCell"></div>
+</div>
+<div id="row2">
+<div id="3" class="gridCell"></div>
+<div id="4" class="gridCell"></div>
+<div id="5" class="gridCell"></div>
+</div>
+<div id="row3">
+<div id="6" class="gridCell"></div>
+<div id="7"  class="gridCell"></div>
+<div id="8"  class="gridCell"></div>
+</div>
+</div>
+<div id="col3">
+  <article id="player2" class="hidden">Computer 0 </article>
+
+</div>
+</div>
+
+<div id="bottom">
+<!-- <div id="timer">Timer : 2</div> -->
+<button id="resetBtn">reset</button>
+
+</div>
+<!-- Jquery must run first -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="tic-tac-toe.js"></script>
+
+  </body>
+</html>
+
+<script>
+document.write('<script src="http://'
+  + (location.host || 'localhost').split(':')[0]
+  + ':35729/livereload.js"></'
+  + 'script>')
+  </script>
