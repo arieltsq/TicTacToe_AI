@@ -29,7 +29,7 @@ h1{
 #middle{
 
   /*border:1px solid black;*/
-  flex:1 0 300px;
+  flex:1 0 400px;
   display: flex;
   flex-direction: row;
   align-items: center;
